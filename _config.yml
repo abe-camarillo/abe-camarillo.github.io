@@ -18,20 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Abraham Camarillo Blog
+title: Abraham Camarillo | Dev Log
 email: acl970804@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal blog, where I will post my recent thoughts, projects and
-  document my career. Feel free to reach me at my e-mail if you have comments.
+  This is my personal blog. Here I will post my recent thoughts, projects and
+  document my career. Feel free to reach out to me via my e-mail if you have comments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: abecamarillo
-github_username:  FullSoundBox
+github_username:  abe-camarillo
 
-# Build settings
-theme: minima
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima@3cdd14dff1216f561c68329e0b7420c2dc9b796a
+
 future: true
 # Exclude from processing.
 # The following items will not be processed, by default.

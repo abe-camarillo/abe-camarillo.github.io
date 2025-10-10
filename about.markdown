@@ -20,8 +20,7 @@ Welcome to my personal blog! I'm Abraham Camarillo, and this is where I share my
 Feel free to reach out to me at [acl970804@gmail.com](mailto:acl970804@gmail.com) if you have any questions or just want to chat!
 
 You can also find me on:
-- [LinkedIn](https://linkedin.com/in/abecamarillo)
-- [GitHub](https://github.com/FullSoundBox)
+- [GitHub](https://github.com/abe-camarillo)
 
 ---
 
